@@ -1,13 +1,7 @@
-[![Latest Stable Version](https://poser.pugx.org/thecodingmachine/phpstan-safe-rule/v/stable)](https://packagist.org/packages/thecodingmachine/phpstan-safe-rule)
-[![Total Downloads](https://poser.pugx.org/thecodingmachine/phpstan-safe-rule/downloads)](https://packagist.org/packages/thecodingmachine/phpstan-safe-rule)
-[![Latest Unstable Version](https://poser.pugx.org/thecodingmachine/phpstan-safe-rule/v/unstable)](https://packagist.org/packages/thecodingmachine/phpstan-safe-rule)
-[![License](https://poser.pugx.org/thecodingmachine/phpstan-safe-rule/license)](https://packagist.org/packages/thecodingmachine/phpstan-safe-rule)
-[![Build Status](https://travis-ci.org/thecodingmachine/phpstan-safe-rule.svg?branch=master)](https://travis-ci.org/thecodingmachine/phpstan-safe-rule)
-[![Coverage Status](https://coveralls.io/repos/thecodingmachine/phpstan-safe-rule/badge.svg?branch=master&service=github)](https://coveralls.io/github/thecodingmachine/phpstan-safe-rule?branch=master)
+# A simplified forked PHPStan rules for thecodingmachine/safe
 
-
-PHPStan rules for thecodingmachine/safe
-=======================================
+> **Note**
+> This fork shrinks the dependent version of [thecodingmachine/phpstan-safe-rule](https://github.com/thecodingmachine/phpstan-safe-rule) to provide a pure rule with the `DynamicFunctionReturnTypeExtension` removed.
 
 The [thecodingmachine/safe](https://github.com/thecodingmachine/safe) package provides a set of core PHP functions rewritten to throw exceptions instead of returning `false` when an error is encountered.
 

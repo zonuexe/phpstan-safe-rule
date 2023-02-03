@@ -1,5 +1,5 @@
 {
-    "name": "thecodingmachine/phpstan-safe-rule",
+    "name": "zonuexe/phpstan-safe-rule-simple",
     "description": "A PHPStan rule to detect safety issues. Must be used in conjunction with thecodingmachine/safe",
     "type": "phpstan-extension",
     "license": "MIT",
@@ -28,6 +28,9 @@
         "psr-4": {
             "TheCodingMachine\\Safe\\PHPStan\\": "tests/"
         }
+    },
+    "replace": {
+        "thecodingmachine/phpstan-safe-rule": "self.version"
     },
     "scripts": {
         "phpstan": "phpstan analyse src -c phpstan.neon --level=7 --no-progress -vvv",
