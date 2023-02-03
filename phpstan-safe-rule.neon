@@ -7,7 +7,3 @@ services:
     class: TheCodingMachine\Safe\PHPStan\Rules\UseSafeClassesRule
     tags:
       - phpstan.rules.rule
-  -
-    class: TheCodingMachine\Safe\PHPStan\Type\Php\ReplaceSafeFunctionsDynamicReturnTypeExtension
-    tags:
-      - phpstan.broker.dynamicFunctionReturnTypeExtension
