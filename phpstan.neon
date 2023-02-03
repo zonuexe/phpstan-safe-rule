@@ -1,4 +1,5 @@
 parameters:
     ignoreErrors:
+    level: max
 includes:
     - phpstan-safe-rule.neon
