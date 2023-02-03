@@ -3,3 +3,4 @@ parameters:
     level: max
 includes:
     - phpstan-safe-rule.neon
+    - phar://phpstan.phar/conf/bleedingEdge.neon
